@@ -4,8 +4,7 @@ float barrierx=0;
 float barriery=700;
 PImage heart;
 PImage arrow;
-PImage rose;
-PImage couple;
+
 
 void setup (){
  size(700,700);
