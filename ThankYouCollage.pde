@@ -13,21 +13,25 @@ void setup (){
 }
 void draw (){
   background(153,255,153);
+  
   image(heart,0,0,700,700);
   image(arrow,mouseX,mouseY,500,500);
+  
+  
+  fill(random(200,255));
   text("Thank You",wordx,250);
   textSize(34);
-  fill(random(200,255));
+ 
   
   
   
   
-  wordx=wordx+speed;
-   if(wordx>700){
-   speed=-20;
- }
- if(wordx<0);{
-   speed=10;
- }
+  //wordx=wordx+speed;
+   //if(wordx>700){
+   //speed=-20;
+ //}
+ //if(wordx<0);{
+   //speed=10;
+ //}
  }
 
