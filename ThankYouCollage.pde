@@ -1,5 +1,5 @@
 float wordx=0;
-float speed;
+float speed=10;
 float barrierx=0;
 float barriery=700;
 PImage heart;
@@ -18,12 +18,15 @@ void draw (){
   text("Thank You",wordx,250);
   textSize(34);
   fill(random(200,255));
-  speed=10;
+  
+  
+  
+  
   wordx=wordx+speed;
-   if(wordx>barriery){
-   speed=speed-20;
+   if(wordx>700){
+   speed=-20;
  }
- if(wordx<barrierx);{
+ if(wordx<0);{
    speed=10;
  }
  }
