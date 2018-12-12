@@ -14,7 +14,7 @@ void setup (){
 void draw (){
   background(153,255,153);
   
-  image(heart,0,0,600,600);
+  image(heart,0,0,700,700);
   image(arrow,mouseX,mouseY,500,500);
   
   
