@@ -27,4 +27,5 @@ void draw (){
  if(wordx<barrierx);{
    speed=10;
  }
+ }
 
